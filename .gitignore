@@ -18,6 +18,7 @@ nytprof.out
 *.o
 *.bs
 /_eumm/
+/_Inline/
 
 *.obj*
 *.log

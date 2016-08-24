@@ -29,7 +29,7 @@ foreach (@{Proc::ProcessTable->new()->table}) {
 
 $start = time();
 my ($found, $not_found) = (0, 0);
-for my $chr ((1..2, 'X', 'Y', 'MT')) {
+for my $chr ((1..22, 'X', 'Y', 'MT')) {
 	for my $pos (1_000..500_000) {
 		$pos *= 2;
 		my $key = "$chr|$pos|C|T";
